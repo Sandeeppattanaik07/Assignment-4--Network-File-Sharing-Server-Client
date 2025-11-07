@@ -1,45 +1,173 @@
-# Assignment-4-Network-File-Sharing-Server-Client
-A C++ project implementing a secure client-server file sharing system on Linux using socket programming, authentication, and encryption for reliable data transfer.
-Project Title
+Secure Network File Sharing System (Client–Server Model)
 
-Network File Sharing Application (Server & Client Model)
+A secure C++ project implementing authenticated file upload & download over TCP sockets on Linux/WSL, with encryption, progress bars, and logging.
 
-Objective
+1. Project Overview
 
-The main goal of this project is to build a secure and efficient file sharing system using C++ and Linux socket programming. The application follows a client–server model where multiple clients can connect to a central server to exchange files safely over a network.
+This project implements a secure client–server file sharing system using C++ and Linux socket programming.
+It allows authenticated users to upload, download, and view files stored on the server.
 
-Project Description
+The system includes:
 
-This project demonstrates how a client and server can communicate over a TCP connection in a Linux environment. The server manages a shared directory and handles multiple client requests, while the clients can upload, download, or view files available on the server. To ensure security, the system includes a simple authentication process and uses data encryption so that files transferred across the network remain protected.
+Password-based authentication
 
-The project uses Linux System Programming (LSP) concepts such as socket creation, binding, listening, and data streaming. It helps understand how real-world file transfer applications work under the hood, providing hands-on experience with low-level networking and system calls.
+Encrypted file transfer (XOR-based)
 
-Tools & Technologies Used:-
+File upload with progress visualization
 
-1. Programming Language: C++
+File download with progress visualization
 
-2. Operating System: Linux (Ubuntu or Fedora recommended)
+File listing
 
-3. Networking Protocol: TCP/IP sockets
+Automatic server logging
 
-4. Security: Basic authentication and encryption (e.g., XOR or AES)
+Clean terminal-based UI
 
-5. Version Control: Git & GitHub
+This project demonstrates core concepts of Linux System Programming (LSP) and network communication.
 
-6. Editor/Compiler: Visual Studio Code with GCC
+2. Features
+Authentication
 
-Key Features:-
+Users must enter a valid username and password from the users.txt file.
 
-1. Supports multiple client connections simultaneously
+File Upload
 
-2. Allows file upload and download between client and server
+Client → Server file transfer
+Includes:
 
-3. Includes user authentication for secure access
+Encryption
 
-4. Encrypts data during transfer for privacy
+Real-time progress bar
 
-5. Implements proper error handling and logging
+Success confirmation
 
-Learning Outcomes:-
+File Download
 
-Through this project, I gained practical knowledge of Linux system calls, socket programming, and client-server communication. I also learned how to apply encryption and authentication techniques to secure data transfers and how to manage a professional project repository using GitHub.
+Server → Client file transfer
+Includes:
+
+Encryption
+
+Real-time progress bar
+
+Success confirmation
+
+File Listing
+
+Client can view all files stored in the server’s shared_files directory.
+
+XOR Encryption
+
+Simple encryption applied during both upload and download operations.
+
+Server Logging
+
+Every upload/download is logged inside server_log.txt.
+
+3. Folder Structure
+Assignment-4--Network-File-Sharing-Server-Client/
+│
+├── Client/
+│   ├── client.cpp
+│   ├── client (binary)
+│   ├── downloads/
+│
+├── Server/
+│   ├── server.cpp
+│   ├── users.txt
+│   ├── server_log.txt
+│   ├── shared_files/
+│
+├── screenshots/   ← Upload your screenshots here
+├── README.md
+└── LICENSE
+
+4. How to Run
+Start the Server
+cd Server
+g++ server.cpp -o server
+./server
+
+Start the Client
+
+Open another terminal:
+
+cd Client
+g++ client.cpp -o client
+./client
+
+5. Screenshots
+
+Upload all your screenshots into:
+
+screenshots/
+
+And rename them exactly as shown:
+
+1. Client Login Success
+
+2. Server Authentication Success
+
+3. Server Waiting for Client
+
+4. Client Username Prompt
+
+5. Server Auth Accepted
+
+6. Client Main Menu
+
+7. File Upload – Progress Bar
+
+8. Upload Completed
+
+9. File Download – Progress Bar
+
+10. Files on Server (List View)
+
+11. Download Completed
+
+12. Server After Client Exit
+
+13. Client Folder Showing Files
+
+14. Server Folder Showing Files
+
+15. GitHub Repository Overview
+
+6. Learning Outcomes
+
+From this project, I gained hands-on experience in:
+
+Linux socket programming
+
+TCP client–server communication
+
+Encryption & decryption
+
+File handling (read/write in chunks)
+
+Directory traversal
+
+Logging mechanisms
+
+Terminal UI design
+
+WSL-based C++ development
+
+Git & GitHub workflow
+
+7. Future Enhancements
+
+Multi-client support using threading
+
+AES encryption instead of XOR
+
+GUI interface
+
+Integrity verification (SHA-256 hashing)
+
+Resumeable downloads
+
+8. License
+
+This project is licensed under the MIT License.
