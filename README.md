@@ -47,19 +47,19 @@ Every login, upload, download is logged in `server_log.txt`.
 ---
 
 ## ✅ 3. Folder Structure
-
+```
 Assignment-4--Network-File-Sharing-Server-Client/
-│
 ├── Client/
 │ ├── client.cpp
 │ ├── client
-│ ├── downloads/
+│ └── downloads/
+│
 ├── Server/
 │ ├── server.cpp
 │ ├── server
 │ ├── users.txt
 │ ├── server_log.txt
-│ ├── shared_files/
+│ └── shared_files/
 │
 ├── screenshots/
 │ ├── img1.png
@@ -76,12 +76,11 @@ Assignment-4--Network-File-Sharing-Server-Client/
 │ ├── img12.png
 │ ├── img13.png
 │ ├── img14.png
-│ ├── img15.png
+│ └── img15.png
 │
 ├── README.md
 └── LICENSE
-
-
+```
 
 ## ✅ 4. How to Run
 
