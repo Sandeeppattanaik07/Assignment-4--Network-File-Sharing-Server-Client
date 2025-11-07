@@ -85,20 +85,18 @@ Assignment-4--Network-File-Sharing-Server-Client/
 ## ✅ 4. How to Run
 
 ▶️ Start the Server
-
+```
 cd Server
-
 g++ server.cpp -o server
-
 ./server
+```
 
 ▶️ Start the Client
-
+```
 cd Client
-
 g++ client.cpp -o client
-
 ./client
+```
 
 ## ✅ 5. Screenshots (All 15 Included)
 
