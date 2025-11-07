@@ -1,156 +1,184 @@
-✅ 1. Project Overview
+# 📁 Secure Network File Sharing System (Client–Server Model)
 
-This project implements a secure client–server file sharing system using C++ and TCP sockets on Linux/WSL.
-The system supports:
+A secure C++ project implementing a client–server file sharing system using TCP sockets in Linux/WSL, supporting authentication, encrypted upload/download, file listing, server logging, and progress bars.
 
-User authentication
+---
 
-File upload
+## ✅ 1. Project Overview
 
-File download
+This project demonstrates a secure file-sharing mechanism where:
 
-File listing
+- Users authenticate using a username & password.
+- Files can be uploaded to the server.
+- Files can be downloaded from the server.
+- All server files can be listed.
+- XOR encryption is used for secure transfer.
+- Server logs all activities in `server_log.txt`.
 
-Encryption
+This project covers **Linux socket programming, encryption, client–server communication**, and **file transfer over TCP**.
 
-Logging
+---
 
-✅ 2. Features
-🔐 Authentication
+## ✅ 2. Features
 
-Users must log in using credentials from users.txt.
+### 🔐 Authentication  
+Users authenticate using credentials stored in `users.txt`.
 
-⬆️ Secure File Upload
+### ⬆️ Secure File Upload  
+- Encrypted file transfer  
+- Chunk-based upload  
+- Real-time progress bar  
+- Automatic save on server  
 
-Encrypted file transfer
+### ⬇️ Secure File Download  
+- Encrypted transfer  
+- Progress bar  
+- Auto-save to `/downloads/` folder  
 
-Real-time progress bar
+### 📂 File Listing  
+View all server files inside `shared_files/`.
 
-Chunk-based transfer
+### 🔒 XOR Encryption  
+Simple XOR-based encryption applied during upload/download.
 
-Upload confirmation
+### 📝 Server Logging  
+Every login, upload, download is logged in `server_log.txt`.
 
-⬇️ Secure File Download
+---
 
-Decrypts automatically
+## ✅ 3. Folder Structure
 
-Progress bar display
-
-Auto-saving inside /downloads/
-
-📂 File Listing
-
-Users can view all files stored in server directory shared_files/.
-
-🔒 XOR Encryption
-
-Simple XOR-based encryption used during both upload & download.
-
-📝 Server Logging
-
-All events recorded in server_log.txt (uploads, downloads, logins).
-
-✅ 3. Folder Structure
 Assignment-4--Network-File-Sharing-Server-Client/
 │
 ├── Client/
-│   ├── client.cpp
-│   ├── client
-│   ├── downloads/
+│ ├── client.cpp
+│ ├── client
+│ ├── downloads/
 │
 ├── Server/
-│   ├── server.cpp
-│   ├── server
-│   ├── users.txt
-│   ├── server_log.txt
-│   ├── shared_files/
+│ ├── server.cpp
+│ ├── server
+│ ├── users.txt
+│ ├── server_log.txt
+│ ├── shared_files/
 │
-├── screenshots/       ← All screenshots stored here
-│   ├── img1.png
-│   ├── img2.png
-│   ├── img3.png
-│   ├── …
+├── screenshots/
+│ ├── img1.png
+│ ├── img2.png
+│ ├── img3.png
+│ ├── img4.png
+│ ├── img5.png
+│ ├── img6.png
+│ ├── img7.png
+│ ├── img8.png
+│ ├── img9.png
+│ ├── img10.png
+│ ├── img11.png
+│ ├── img12.png
+│ ├── img13.png
+│ ├── img14.png
+│ ├── img15.png
 │
 ├── README.md
 └── LICENSE
 
-✅ 4. How to Run
-▶️ Start the Server
+yaml
+Copy code
+
+---
+
+## ✅ 4. How to Run
+
+### ▶️ Start the Server
+```bash
 cd Server
 g++ server.cpp -o server
 ./server
-
 ▶️ Start the Client
+bash
+Copy code
 cd Client
 g++ client.cpp -o client
 ./client
-
 ✅ 5. Screenshots (All 15 Included)
-✅ Screenshot 1 — Server waiting for client
+📸 1. Client Login Screen
 
-✅ Screenshot 2 — Client login screen
 
-✅ Screenshot 3 — Server authentication success
+📸 2. Entering Username & Password
 
-✅ Screenshot 4 — Server waiting
 
-✅ Screenshot 5 — Client username prompt
+📸 3. Login Successful on Client
 
-✅ Screenshot 6 — Client login success
 
-✅ Screenshot 7 — Client menu
+📸 4. Server Authenticating User
 
-✅ Screenshot 8 — Uploading file progress
 
-✅ Screenshot 9 — Upload completed
+📸 5. Server Login Success Message
 
-✅ Screenshot 10 — Download progress
 
-✅ Screenshot 11 — Download completed
+📸 6. Client Main Menu
 
-✅ Screenshot 12 — Files listed on server
 
-✅ Screenshot 13 — Client folder view
+📸 7. Uploading File – Progress Bar
 
-✅ Screenshot 14 — Server folder view
 
-✅ Screenshot 15 — GitHub project repo
+📸 8. Upload Completed Successfully
+
+
+📸 9. Downloading File – Progress Bar
+
+
+📸 10. File List on Server
+
+
+📸 11. Download Completed
+
+
+📸 12. Server After File Transfer Logging
+
+
+📸 13. Client Folder Showing Downloaded Files
+
+
+📸 14. Server Folder Showing Uploaded Files
+
+
+📸 15. GitHub Repository Overview
+
 
 ✅ 6. Learning Outcomes
-
 You will understand:
 
 Linux socket programming
 
 TCP client–server communication
 
-File transfer in chunks
+File transfer using streams
 
-Encryption/decryption
+Chunk-based transmission
 
-Logging mechanisms
+XOR encryption/decryption
 
-Git & GitHub workflows
+Logging techniques
 
-WSL development environment
+Git & GitHub workflow
+
+WSL/Linux development environment
 
 ✅ 7. Future Enhancements
+Multi-client support (threaded)
 
-Multi-client support
+AES/RSA encryption instead of XOR
 
-Strong encryption (AES/RSA)
+GUI interface
 
-GUI-based interface
+SHA-256 integrity verification
 
-Hash verification
-
-Resume upload/download
+Pause/Resume downloads
 
 ✅ 8. License
-
 MIT License.
 
 ✅ 9. Author
-
 Sandeep Pattanaik
 CSE Student – Network Programming Project
