@@ -99,49 +99,49 @@ g++ client.cpp -o client
 ./client
 ✅ 5. Screenshots (All 15 Included)
 📸 1. Client Login Screen
-
+screenshots/img1.png
 
 📸 2. Entering Username & Password
-
+screenshots/img2.png
 
 📸 3. Login Successful on Client
-
+screenshots/img3.png
 
 📸 4. Server Authenticating User
-
+screenshots/img4.png
 
 📸 5. Server Login Success Message
-
+screenshots/img5.png
 
 📸 6. Client Main Menu
-
+screenshots/img6.png
 
 📸 7. Uploading File – Progress Bar
-
+screenshots/img7.png
 
 📸 8. Upload Completed Successfully
-
+screenshots/img8.png
 
 📸 9. Downloading File – Progress Bar
-
+screenshots/img9.png
 
 📸 10. File List on Server
-
+screenshots/img10.png
 
 📸 11. Download Completed
-
+screenshots/img11.png
 
 📸 12. Server After File Transfer Logging
-
+screenshots/img12.png
 
 📸 13. Client Folder Showing Downloaded Files
-
+screenshots/img13.png
 
 📸 14. Server Folder Showing Uploaded Files
-
+screenshots/img14.png
 
 📸 15. GitHub Repository Overview
-
+screenshots/img15.png
 
 ✅ 6. Learning Outcomes
 You will understand:
