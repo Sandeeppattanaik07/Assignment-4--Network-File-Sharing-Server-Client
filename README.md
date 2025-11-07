@@ -98,7 +98,7 @@ cd Client
 g++ client.cpp -o client
 ./client
 
-✅ 5. Screenshots (All 15 Included)
+## ✅ 5. Screenshots (All 15 Included)
 
 📸 1. Client Login Screen
 screenshots/img1.png
@@ -145,7 +145,7 @@ screenshots/img14.png
 📸 15. GitHub Repository Overview
 screenshots/img15.png
 
-✅ 6. Learning Outcomes
+## ✅ 6. Learning Outcomes
 You will understand:
 
 Linux socket programming
@@ -164,7 +164,7 @@ Git & GitHub workflow
 
 WSL/Linux development environment
 
-✅ 7. Future Enhancements
+## ✅ 7. Future Enhancements
 Multi-client support (threaded)
 
 AES/RSA encryption instead of XOR
@@ -175,9 +175,9 @@ SHA-256 integrity verification
 
 Pause/Resume downloads
 
-✅ 8. License
+## ✅ 8. License
 MIT License.
 
-✅ 9. Author
+## ✅ 9. Author
 Sandeep Pattanaik
 CSE Student – Network Programming Project
