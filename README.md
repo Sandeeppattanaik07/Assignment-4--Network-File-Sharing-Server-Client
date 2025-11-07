@@ -1,6 +1,6 @@
 # 📁 Secure Network File Sharing System (Client–Server Model)
 
-A secure C++ project implementing an authenticated file sharing system using Linux socket programming.
+A secure C++ project implementing authenticated file upload & download over TCP sockets on Linux/WSL, with encryption, progress bars, and logging.
 
 ---
 
@@ -10,40 +10,38 @@ This project implements a secure **client–server file sharing system** using *
 The system supports:
 
 - User authentication  
-- File upload  
-- File download  
+- Secure file upload  
+- Secure file download  
 - File listing  
-- Logging  
-- Simple XOR encryption  
+- XOR encryption  
+- Terminal progress bars  
+- Server-side logging  
 
 ---
 
 ## ✅ 2. Features
 
 ### 🔐 Authentication  
-Users must log in using credentials from `users.txt`.
+Users must log in using credentials stored in `users.txt`.
 
 ### ⬆️ Secure File Upload  
-- Client → Server file transfer  
-- XOR encryption applied  
+- Encrypted upload  
+- Progress bar  
 - Chunk-based transfer  
-- ✅ Upload progress bar  
-- ✅ Success confirmation  
 
 ### ⬇️ Secure File Download  
-- Server → Client transfer  
-- Decryption handled automatically  
-- ✅ Download progress bar  
-- ✅ Auto-save to `/downloads/`
+- Decrypts automatically  
+- Progress bar  
+- Auto-save to `downloads/`
 
 ### 📂 File Listing  
-Client can see all server-stored files inside `shared_files/`.
+View all files stored in `shared_files/`.
 
 ### 🔒 XOR Encryption  
-A simple XOR-based encryption layer is applied on both upload and download.
+Basic encryption applied to both upload & download.
 
 ### 📝 Server Logging  
-All uploads/downloads and authentication events are stored in `server_log.txt`.
+Stored in `server_log.txt`.
 
 ---
 
@@ -63,7 +61,7 @@ Assignment-4--Network-File-Sharing-Server-Client/
 │ ├── server_log.txt
 │ ├── shared_files/
 │
-├── screenshots/ ← Add all screenshots here
+├── screenshots/
 ├── README.md
 └── LICENSE
 
@@ -85,65 +83,67 @@ Copy code
 cd Client
 g++ client.cpp -o client
 ./client
-✅ 5. Screenshots
-⚠️ Replace these imgX.png names with the actual screenshot file names you upload inside /screenshots/.
+✅ 5. Screenshots (With Captions)
+✅ Make sure all images are inside /screenshots/.
 
-✅ Client Login
+📸 1. Client Login Screen
 
-✅ Server Authentication
+📸 2. Entering Username & Password
 
-✅ Server Waiting
+📸 3. Login Successful on Client
 
-✅ Client Username
+📸 4. Server Authenticating User
 
-✅ Server Login Success
+📸 5. Server Login Success Message
 
-✅ Client Menu
+📸 6. Client Main Menu (Upload / Download / List Files)
 
-✅ File Upload Progress
+📸 7. Uploading File – Progress Bar Display
 
-✅ Upload Completed
+📸 8. Upload Completed Successfully
 
-✅ File Download Progress
+📸 9. Downloading File – Progress Bar
 
-✅ File List on Server
+📸 10. File List on Server (shared_files/)
 
-✅ Download Completed
+📸 11. Download Completed Successfully
 
-✅ Client Folder
+📸 12. Server After File Transfer Logging Output
 
-✅ Server Folder
+📸 13. Client Folder Showing Downloaded Files
 
-✅ GitHub Repository
+📸 14. Server Folder Showing Uploaded Files
+
+📸 15. GitHub Repository Overview
 
 ✅ 6. Learning Outcomes
-Networking & socket programming
+TCP socket programming
 
-Client-server architecture
+Client–server architecture
 
-File systems & binary transfer
+File transfer using streams
 
 Encryption & decryption
 
-Logging & monitoring
+WSL/Linux development
 
-WSL/Linux environment
+Logging mechanisms
 
-Git & GitHub version control
+Git & GitHub workflow
 
 ✅ 7. Future Enhancements
-Multi-client support using threads
+Multi-client support
 
 AES/RSA encryption
 
-GUI/File Explorer
+GUI-based interface
 
-Integrity verification (hashing)
+File integrity check (SHA-256)
 
-Pause/Resume file transfer
+Resume-able downloads
 
 ✅ 8. License
-This project is licensed under the MIT License.
+MIT License.
 
 ✅ 9. Author
 Sandeep Pattanaik
@@ -154,13 +154,10 @@ Copy code
 
 ---
 
-✅ This is **final, clean, and ready** for GitHub.  
-✅ Now just **paste it inside README.md** and upload your screenshots inside `/screenshots/`.
+✅ **This README is now perfect for submission + GitHub.**  
+✅ If you want, I can also prepare:  
+✅ Full **PDF project report**  
+✅ **Viva questions & answers**  
+✅ **Google Form answers**  
 
-If you want, I can also prepare a **PDF full project report** based on this README + screenshots.
-
-
-
-
-
-
+Just tell me!
