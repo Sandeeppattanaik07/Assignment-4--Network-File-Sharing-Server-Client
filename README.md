@@ -163,36 +163,36 @@ g++ client.cpp -o client
 ## ✅ 6. Learning Outcomes
 You will understand:
 
-Linux socket programming
+ 1. Linux socket programming
 
-TCP client–server communication
+ 2. TCP client–server communication
 
-File transfer using streams
+ 3. File transfer using streams
 
-Chunk-based transmission
+ 4. Chunk-based transmission
 
-XOR encryption/decryption
+ 5. XOR encryption/decryption
 
-Logging techniques
+ 6. Logging techniques
 
-Git & GitHub workflow
+ 7. Git & GitHub workflow
 
-WSL/Linux development environment
+ 8. WSL/Linux development environment
 
 ## ✅ 7. Future Enhancements
  1. Multi-client support (threaded)
 
  2. AES/RSA encryption instead of XOR
 
-GUI interface
+ 3. GUI interface
 
-SHA-256 integrity verification
+ 4. SHA-256 integrity verification
 
-Pause/Resume downloads
+ 5. Pause/Resume downloads
 
 ## ✅ 8. License
 MIT License.
 
 ## ✅ 9. Author
 Sandeep Pattanaik
-CSE Student – Network Programming Project
+CSE(Cyber Security) Student – Network Programming Project
