@@ -103,63 +103,63 @@ g++ client.cpp -o client
 
 ## ✅ 5. Screenshots (All 15 Included)
 
-📸 1. Client Login Screen
+# 📸 1. Client Login Screen
 
 ![screenshot1](screenshots/img1.png)
 
-📸 2. Entering Username & Password
+# 📸 2. Entering Username & Password
 
 ![screenshot2](screenshots/img2.png)
 
-📸 3. Login Successful on Client
+# 📸 3. Login Successful on Client
 
 ![screenshot3](screenshots/img3.png)
 
-📸 4. Server Authenticating User
+# 📸 4. Server Authenticating User
 
 ![screenshot4](screenshots/img4.png)
 
-📸 5. Server Login Success Message
+# 📸 5. Server Login Success Message
 
 ![screenshot5](screenshots/img5.png)
 
-📸 6. Client Main Menu
+# 📸 6. Client Main Menu
 
 ![screenshot6](screenshots/img6.png)
 
-📸 7. Uploading File – Progress Bar
+# 📸 7. Uploading File – Progress Bar
 
 ![screenshot7](screenshots/img7.png)
 
-📸 8. Upload Completed Successfully
+# 📸 8. Upload Completed Successfully
 
 ![screenshot8](screenshots/img8.png)
 
-📸 9. Downloading File – Progress Bar
+# 📸 9. Downloading File – Progress Bar
 
 ![screenshot9](screenshots/img9.png)
 
-📸 10. File List on Server
+# 📸 10. File List on Server
 
 ![screenshot10](screenshots/img10.png)
 
-📸 11. Download Completed
+# 📸 11. Download Completed
 
 ![screenshot11](screenshots/img11.png)
 
-📸 12. Server After File Transfer Logging
+# 📸 12. Server After File Transfer Logging
 
 ![screenshot12](screenshots/img12.png)
 
-📸 13. Client Folder Showing Downloaded Files
+# 📸 13. Client Folder Showing Downloaded Files
 
 ![screenshot13](screenshots/img13.png)
 
-📸 14. Server Folder Showing Uploaded Files
+# 📸 14. Server Folder Showing Uploaded Files
 
 ![screenshot14](screenshots/img14.png)
 
-📸 15. GitHub Repository Overview
+# 📸 15. GitHub Repository Overview
 
 ![screenshot15](screenshots/img15.png)
 
