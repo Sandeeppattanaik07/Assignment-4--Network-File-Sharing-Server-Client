@@ -180,9 +180,9 @@ Git & GitHub workflow
 WSL/Linux development environment
 
 ## ✅ 7. Future Enhancements
-Multi-client support (threaded)
+ 1. Multi-client support (threaded)
 
-AES/RSA encryption instead of XOR
+ 2. AES/RSA encryption instead of XOR
 
 GUI interface
 
