@@ -51,8 +51,11 @@ Every login, upload, download is logged in `server_log.txt`.
 Assignment-4--Network-File-Sharing-Server-Client/
 │
 ├── Client/
+|
 │ ├── client.cpp
+|
 │ ├── client
+|
 │ ├── downloads/
 │
 ├── Server/
