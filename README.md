@@ -51,13 +51,9 @@ Every login, upload, download is logged in `server_log.txt`.
 Assignment-4--Network-File-Sharing-Server-Client/
 │
 ├── Client/
-|
 │ ├── client.cpp
-|
 │ ├── client
-|
 │ ├── downloads/
-│
 ├── Server/
 │ ├── server.cpp
 │ ├── server
@@ -92,25 +88,29 @@ Assignment-4--Network-File-Sharing-Server-Client/
 ▶️ Start the Server
 
 cd Server
+
 g++ server.cpp -o server
+
 ./server
 
 ▶️ Start the Client
 
 cd Client
+
 g++ client.cpp -o client
+
 ./client
 
 ## ✅ 5. Screenshots (All 15 Included)
 
 📸 1. Client Login Screen
-screenshots/img1.png
+screenshots /img1.png
 
 📸 2. Entering Username & Password
-screenshots/img2.png
+screenshots /img2.png
 
 📸 3. Login Successful on Client
-screenshots/img3.png
+screenshots /img3.png
 
 📸 4. Server Authenticating User
 screenshots/img4.png
