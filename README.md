@@ -82,15 +82,12 @@ Assignment-4--Network-File-Sharing-Server-Client/
 ├── README.md
 └── LICENSE
 
-yaml
-Copy code
 
----
 
 ## ✅ 4. How to Run
 
 ### ▶️ Start the Server
-```bash
+
 cd Server
 g++ server.cpp -o server
 ./server
