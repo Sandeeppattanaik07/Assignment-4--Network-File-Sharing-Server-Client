@@ -200,4 +200,6 @@ MIT License.
 ## ✅ 10. Author
 Sandeep Pattanaik
 
-CSE(Cyber Security) Student – Network Programming Project
+CSE(Cyber Security) Student
+
+ITER, S'O'A University
