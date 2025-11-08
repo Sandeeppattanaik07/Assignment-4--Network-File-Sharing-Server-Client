@@ -106,7 +106,7 @@ g++ client.cpp -o client
 
 ### 📸 2. Entering Username & Password
 
-![screenshot2](screenshots/img2.png)
+![screenshot2](screenshots/img4.png)
 
 ### 📸 3. Login Successful on Client
 
@@ -189,6 +189,10 @@ You will understand:
  4. SHA-256 integrity verification
 
  5. Pause/Resume downloads
+
+## ✅ 8. Project Report File
+📄 [Download Project Report (PDF)](Secure_Network_File_Sharing_System_Report.pdf)
+
 
 ## ✅ 8. License
 MIT License.
