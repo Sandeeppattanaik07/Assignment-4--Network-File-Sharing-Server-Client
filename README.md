@@ -194,10 +194,10 @@ You will understand:
 📄 [Download Project Report (PDF)](Secure_Network_File_Sharing_System_Report.pdf)
 
 
-## ✅ 8. License
+## ✅ 9. License
 MIT License.
 
-## ✅ 9. Author
+## ✅ 10. Author
 Sandeep Pattanaik
 
 CSE(Cyber Security) Student – Network Programming Project
