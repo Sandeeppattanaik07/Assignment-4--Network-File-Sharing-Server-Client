@@ -110,7 +110,7 @@ g++ client.cpp -o client
 
 ### 📸 3. Login Successful on Client
 
-![screenshot3](screenshots/img3.png)
+![screenshot3](screenshots/img2.png)
 
 ### 📸 4. Server Authenticating User
 
